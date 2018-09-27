@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Part1 </title>
+    </head>
+    
+    <body>
+            <h1>Please Enter Your Details For Our Dating Website!</h1>
+            
+            <form>
+                <fieldset>
+                    <legend>Your Face</legend>
+                    <label>Your image</label>
+                    <input type="file" id="img" required>
+                    <br>
+                    <label>Image Preview:</label>
+                    <img id="preview" src="#img">
+
+                </fieldset>
+                
+                <fieldset>
+                
+                    <legend>Your General Details</legend>
+                    <label>Name:</label>
+                    <input type="text" name="name" placeholder="Your full name" required>
+                    <br>
+                    <label>Gender:</label>
+                    <input type="radio" name"Gender" value="Male">Male
+                    <input type="radio" name"Gender" value="Female">Female<br>
+                    <label>Age:</label>
+                    <input type="number" required><br>
+                    <label>Date of birth:</label>
+                    <input type="date" placeholder="dd/mm/yyyy"><br>
+                    <label>Favourite color:</label>
+                    <input type="color" ><br>
+                    <label>Which country:</label>
+                    <select >
+                         <option>no selection</option>
+                         <option>Egypt</option>
+                         <option>Algeria </option>
+                         <option>Morraco</option>
+                         <option>Tunisia</option>
+                         <option>Suria </option>
+                    </select>
+                
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Your Inducators</legend>
+                    <label>Height: Short</label>
+                    <input type="range" min="0" max="100" >Tall <br>
+                    <label>Salary: Poor</label>
+                    <input type="range" min="0" max="100" >Rich <br>
+                    
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Your Contact Information</legend>
+                    <label>Email:</label>
+                    <input type="email" required><br>
+                    <label>Mobile</label>
+                    <input type="tel"><br>
+                    <label>Address:</label>
+                    <textarea></textarea><br>
+                    <label>Method to contact you:</label>
+                    <input type="checkbox">Email
+                    <input type="checkbox">Whatsapp
+                    <input type="checkbox">In-app-chat
+                
+                </fieldset>
+                <input type="submit" value="Submit">
+            </form>
+    
+    
+    
+    </body>
+    
+
+
+
+</html>

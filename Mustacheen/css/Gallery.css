@@ -1,0 +1,109 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Start Header */ 
+header {
+    width:50%;
+    margin:50px auto;
+}
+header img {
+    width:50%;
+    margin:0 auto;
+    display: block;
+}
+header .navbar ul {
+    list-style: none;
+    width:80%;
+    margin: 0 auto; 
+}
+header .navbar ul li {
+    display: inline-block;
+    font-size: 18px;
+    font-family:"Arial Black",Tahoma;
+    margin-top:40px;
+    margin-right:25px;  
+}
+header .navbar ul li a {
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+}
+header .navbar ul li a:hover {color:#80c5c0;}
+header .navbar ul li a:active { color:#80c5c0;}
+
+/* End header*/
+
+/* Start Content */
+.content {
+    width:75%;
+    margin:0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.content h1 {
+    width:25%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-family:'poller one', cursive;
+    text-transform: uppercase;
+    background-color:#252525;
+    color:#FFFFFF;
+    padding: 10px;
+}
+.content a {
+    text-decoration: none;
+    color:#FFF;
+    display: inline-block;
+    margin-left: 15px;
+}
+.content img {
+    float: left;
+    margin:10px 0 ;
+    border: 2px solid black;
+    opacity: 0.7;
+    transition: all 0.5s ease-in-out;
+}
+.content img:hover {
+    opacity: 1;
+}
+.content img:first-of-type , .content img:nth-of-type(4) ,.content img:nth-of-type(7) {
+    margin-left: 0;
+}
+/* End content */
+
+/* Start Footer */ 
+footer {
+    width: 100%;
+    background-color: #252525;
+    height: 120px;
+    margin-top:40px;
+}
+footer .container{
+    width:70%;
+    margin:0 auto;
+}
+footer .container p {
+    color:#FFF;
+    display: inline-block;
+    margin-top:50px;
+    font-family: Arial;
+    font-size: 14px;
+}
+footer .container i {
+    float: right;
+    margin:35px 20px 0 0;
+    font-size: 30px;
+    color:#FFF;
+    padding:5px;
+    width:35px;
+    text-align: center;
+    border:2px groove #FFF;
+}
+footer .container i:hover {
+    background-color: #FFF;
+    color:#252525;
+}
+/* End Footer */

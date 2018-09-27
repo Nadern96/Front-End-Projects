@@ -1,0 +1,214 @@
+body {
+   
+    margin:auto;
+    background-color:snow;
+}
+.one   {
+     background-color: cadetblue;
+     height:20px;
+     padding: 5px;
+     direction: ltr;
+     text-align: right;
+     
+}
+
+.one a {
+    margin: 10px;
+    color: darkturquoise;
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color:aliceblue;
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
+    
+}
+.two {
+   
+    height:110px;
+    margin-top:10px;
+    
+    
+}
+.two img {
+    margin-top:-5px;
+    padding:10px;
+    width:200px;
+    height:120px;
+    
+}
+.two section {
+    float:right;
+    width:350px;
+    height:90px;
+    border:1px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top:10px;
+    margin-right: 10px;
+    padding-left:10px;
+    text-align: left;
+    line-height: 22px;
+    color:cornflowerblue;
+}
+.two section span{
+   
+    font-size:14px;
+    font-family: Tahoma;
+    font-weight: bold;
+    
+}
+.two section input[type="submit"]{
+    background: orangered;
+    width:40px; height: 23px;
+    color:white;
+    font-weight: bold;
+    font-family: monospace;
+}
+.three {
+    background-color: deepskyblue;
+    height:50px;
+   
+    margin-top:10px;
+    padding-top: 8px;
+    
+    
+}
+.three table td {
+padding-left:210px;
+
+font-size:25px;
+font-weight:500;
+font-family: Arial ,sans-serif;
+    
+            }
+.three table td a {
+    color:white;
+    text-decoration: none;
+    
+}
+.three table td a:hover {
+    font-size:35px;
+    color:deeppink;
+    font-weight: bold;
+  
+}
+
+.images {
+    margin: 30px 0 20px 0;
+    position: relative;
+    background-color: floralwhite;
+}
+.images img{
+    width:30%;
+    height:350px;
+    margin-left: 30px;
+   
+}
+.images .p1{
+    position: absolute;
+    left:150px;
+    top:100px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color:white;
+    text-align: center;
+    
+}
+.images .p1 span{
+    font-size:25px;
+}
+.images .p1 button {
+    margin-top: 30px;
+    text-align: center:
+    font-size:20px;
+    color:Red;
+    background: white;
+    width:140px;
+    height:30px;
+    border-radius: 20px;
+    font-family: cursive;
+}
+.images .p2{
+    position: absolute;
+    left:600px;
+    top:100px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color:black;
+    text-align: center;
+    
+}
+.images .p2 span{
+    font-size:25px;
+}
+.images .p2 button {
+    margin-top: 30px;
+    text-align: center;
+    
+    color:Red;
+    background: white;
+    width:140px;
+    height:30px;
+    border-radius: 20px;
+    font-family: cursive;
+}
+.images .p3{
+    position: absolute;
+    left:1050px;
+    top:100px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color:brown;
+    text-align: center;
+    
+}
+.images .p3 span{
+    font-size:25px;
+}
+.images .p3 button {
+    margin-top: 30px;
+    text-align: center:
+    font-size:20px;
+    color:Red;
+    background: white;
+    width:140px;
+    height:30px;
+    border-radius: 20px;
+    font-family: cursive;
+}
+
+.five {
+    margin-top:10px;
+   
+    height:150px;
+    display:inline-flex;
+     background-color:deepskyblue;
+     width:100%;
+}
+.five section {
+    
+    padding: 5px;
+    width:30%;
+    margin-left: 30px;
+    text-align: left;
+    border-right:1px solid #cfbfd0;
+}
+.five section p span  {
+    font-weight: bold;
+    font-size:20px;
+    margin-left: 80px;
+    color:white;
+    background-color:darkviolet;
+    border-radius: 5px;
+}
+ #p {
+    text-align: center;
+}
+#p span {
+    margin-left:0;
+}
+
+ 

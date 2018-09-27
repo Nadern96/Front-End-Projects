@@ -1,0 +1,426 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Start Header */
+header {
+    background-image: url(../Images/21013741_1147518515392953_2126515462225987791_o.jpg);
+    background-size: cover;
+    height: 660px;
+    border: .2px solid #5b3888;   
+}
+header a img {
+    float:left;
+    margin:20px 120px;
+} 
+header a:nth-of-type(2) , header a:nth-of-type(3) {
+    float:right;
+    margin-top:25px;
+    text-decoration: none;
+    color:#FFF;
+    font-family: Arial,Tahoma; 
+}
+header a:nth-of-type(2){
+    margin-right:120px;
+    margin-left:20px;
+}
+header h1 {
+    color:#FFF;
+    font-family: "Arial Black";
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: -1;
+    text-align: center;
+    margin-top:260px;
+    animation: opacity 1s ease-in-out 0s 1;
+}
+header p {
+    text-align: center;
+    color:#FFF;
+    font-family:Tahoma;
+    font-size: 22px;
+    animation: opacity 1s ease-in-out .5s 1 normal forwards;
+    opacity: 0;
+}
+header div  {
+    width:30%;
+    margin: 0 auto;
+    margin-top:50px;  
+    position:relative;
+}
+header div a {
+    text-decoration: none;
+    color:#000;
+}
+header div button:nth-of-type(2) a{
+    color:#FFF;
+}
+header div button {
+    background-color:#fffffd;
+    padding:25px 30px;
+    text-transform: uppercase;
+    border:0;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity:0;
+    transition: all .5s ease-in-out;
+}
+header div button:first-of-type {
+    margin:0 7% 5% 8%;
+    animation: opacity 1s ease-in-out 1s 1 normal forwards;
+}
+header div button:first-of-type:hover {
+    background-color:#e0e2e5;
+}
+header div button:nth-of-type(2) {
+    background-color:#70cbd0;
+    animation: opacity 1s ease-in-out 1.5s 1 normal forwards;
+}
+header div button:nth-of-type(2):hover{
+    background-color: #8BE2E5;  
+}
+/*Start opacity animation */
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*End opacity animation */
+header >span {
+    width:25px;
+    height:45px;
+    border:2px solid #FFF;
+    border-radius:20px;
+    display: block;
+    margin:auto;
+    margin-top: 40px;
+    position: relative;
+}
+header span span {
+    width:3px;
+    height:7px;
+    position: absolute;
+    background-color:#FFF;
+    right:10px;
+    border:1px solid #FFF;
+    border-radius:15px 15px 15px 15px;
+    display: block;
+    animation: loading 1s ease-in-out 0s infinite normal ;
+}
+/* start loading animation */
+@keyframes loading {
+    from {
+        top:5px;
+    }
+    to {
+        top:30px;
+        background-color: #c5c5d1;
+        border-color:#c5c5d1;
+    }
+}
+/* End loading animation */
+/* End Header */ 
+
+/*Start learn more */
+.learnmore {
+    width:100%;
+    height: 700px;
+    background-image: url(../Images/21032806_1147516042059867_4558513729577497194_n.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.learnmore h2 {
+    margin-top:200px;
+    margin-bottom: 5px;
+    text-align: center;
+    letter-spacing: -1;
+    color:#FFF;
+    font-size:40px;
+    font-family: "Arial Black";
+    opacity:0;
+    animation: opacity 1s ease-in-out 1.5s 1 normal forwards;
+}
+.learnmore p {
+    margin:0;
+    text-align: center;
+    color:#FFF;
+    font-family:Tahoma;
+    font-size: 22px;
+    opacity: 0;
+    animation: opacity 1s ease-in-out 2s 1 normal forwards;    
+}
+.learnmore img {
+    width:32%;
+    height: 650px;
+    left:34%;
+    position: absolute;
+    top:1000px;
+    opacity: 0;
+    animation: opacity 1s ease-in-out 2.5s 1 normal forwards;
+}
+/*End learn more */
+
+/*Start Features*/
+.features{
+    width:80%;
+    margin: auto;
+    margin-top:20%;
+}
+.features section  {
+    width:30%;
+    float: left;
+    margin-right: 3%;
+    opacity: 0;
+    animation: opacity 1s ease-in-out 2.5s 1 normal forwards;
+}
+.features section:first-of-type hr {
+    border:2px solid #6D3F96;
+}
+.features section h3 {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #231f20;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.features section p {
+    font-size: 17px;
+    line-height: 22px;
+    color: #929496;
+    font-weight: 400;
+    margin-top: 0;
+}
+.features section:nth-of-type(2) hr {
+    border:2px solid #70CBCE;
+}
+.features section:nth-of-type(3) hr {
+    border:2px solid #FDC05D;
+}
+
+/*End Features*/
+.clearfix {
+    clear: both;
+}
+/* Start Pricing */
+.pricing {
+    margin-top:150px;
+    background-color:#70CBCE;
+    overflow: hidden;
+    position: relative;
+}
+.pricing > h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: Arial;
+    color:#FFF;
+    margin-top:150px;
+    margin-bottom: 0;
+}
+.pricing p {
+    text-align: center;
+    font-family: Arial;
+    color:#FFF;
+}
+.pricing section {
+    margin:80px 0;
+    width:30%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    float: left;
+    overflow: hidden;  
+    z-index: 1;
+    margin-bottom: 200px;
+}
+.pricing section:nth-of-type(2) {
+    box-shadow: 0 0 12px #303236;
+    z-index: 2;
+    margin-top:60px;
+}
+.pricing section ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 0;
+    background-color:#FFF;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.pricing section:hover h3:nth-of-type(2) {
+    background-color: #303236;
+}
+.pricing section ul > h3 {
+    margin:0;
+    margin-left: 0;
+    padding:15px 0;
+    width:100%;
+    font-size: 15px;
+    background-color:#231F20;
+    font-family: Arial;
+    color:#FFF;
+    text-align: center;
+    transition:all 0.5s ease-in-out;
+}
+.pricing section ul h3:nth-of-type(2) {
+    padding:20px 0;
+    font-size: 30px;
+}
+.pricing section ul h3 span {
+    color:gray;
+    font-size: 25px;
+}
+.pricing section ul li:first-of-type {
+    color:lightgrey;
+    padding: 20px;
+    border-bottom: 1px dotted lightgrey;
+    font-weight: normal;
+}
+.pricing section ul li{
+    font-weight: bold;
+    font-size:15px;
+    font-family: Arial;
+    padding:15px;
+    border-bottom: 1px dotted lightgrey;
+}
+.pricing section ul  button {
+    width:100%;
+    margin:0;
+    padding:20px 0;
+    background-color:#FFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    border:0;
+    color:#70CBCE;
+    transition: all .5s ease-in-out;
+}
+.pricing section ul  button:hover {
+    background-color:#EDEDED;
+    cursor: pointer;
+}
+/* End Pricing */
+
+/*Start invite */
+.invite {
+    width:100%;
+    background-color:#F2F2F2;
+    text-align: center;
+    overflow: hidden;
+}
+.invite section {
+    width:50%;
+    margin:auto;
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+.invite section span {
+    display: block;
+    margin: auto;
+    width:50px;
+    height:50px;
+    border:2px solid #70CBCE;
+    border-radius: 50%;
+}
+.invite section span i {
+    font-size: 25px;
+    padding: 10px;
+    color: #70CBCE;
+}
+.invite section h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.invite section p {
+    font-size: 17px;
+    color: #929496;
+    font-weight: 500;
+    font-family: sans-serif,serif;
+}
+.invite section input {
+    color:#929496;
+    margin: 20px ;
+    width:45%;
+    margin-right: 27%;
+    margin-left: 27%;
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 0;
+}
+.invite section button {
+    background-color:#70CBCE;
+    color:#FFF;
+    padding:20px 30px;
+    text-transform: uppercase;
+    border:0;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all .5s ease-in-out;
+}
+.invite section button:hover {
+    background-color:#8BE2E5;
+    cursor: pointer;
+}
+/* End invite */
+
+/* Start info */
+.info{
+    margin:100px 0;
+}
+.info section {
+    width:60%;
+    margin:auto;
+}
+.info section img {
+    float:left;
+    margin-right: 30px;
+}
+.info section p {
+    margin: 20px 0;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: Arial;
+}
+.info hr {
+    width:80%;
+    border:1px dotted #EBEDF0;
+    
+}
+/* End info */
+
+/* Start Footer */
+footer {
+    margin:50px 0;
+}
+footer p {
+    margin:50px 100px 0 100px;
+    font-size: 18px;
+}
+footer p i {
+    font-size: 14px;
+    transition:all 0.5s ease-in-out;
+}
+footer p i:hover {
+    color:lightgrey;
+    cursor: pointer;
+}
+footer p:nth-of-type(2) {
+    float: right;
+    margin: 0 100px 50px 0;
+    direction: rtl;
+    color:lightgrey;
+    line-height: 1.4;
+}
+
+
+/* End Footer */

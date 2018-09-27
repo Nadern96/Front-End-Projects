@@ -1,0 +1,144 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: #EDF2F4 ;
+}
+
+nav 
+{
+    background-color: white;
+    color: #EF233C ;
+    width:100%;
+    position: fixed;
+
+    
+}
+nav ul
+{
+    text-align: center;
+}
+nav ul li
+{
+    display: inline-block;
+    
+    padding: 20px;
+    
+}
+nav ul a 
+{
+    text-decoration: none;
+    color: #EF233C ;
+    font-family: Arial;
+    font-weight: bold;
+}
+header
+{
+    width:100%;
+    height: 400px;
+    background-color: #2B2D42 ;
+    display: inline-block;
+}
+header img 
+{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    margin:50px 50px 50px 150px;
+    float:left;
+}
+header section 
+{   width:650px;
+    float:left;  
+    margin-top:50px;
+}
+header section p {
+    font-style: italic;
+}
+header button 
+{
+    margin-top:360px;
+    margin-bottom: 0;
+    float:right;
+    padding: 10px;
+    height: 40px;
+    background-color: #EF233C ;
+    color:white;
+    border-style: none;
+    cursor: pointer;
+}
+.content 
+{     
+    width:100%;
+    height:900px;
+}
+.content aside 
+{
+    margin:50px 0 0 150px;
+    width:20%;
+    float:left;
+   
+}
+.content aside h4 
+{
+    font-family:arial,Tahoma;
+    line-height: 20px;
+}
+.content aside p 
+{
+    font-family:arial,Tahoma;
+    font-size: 14px;
+}
+.content section 
+{   
+    margin-top:138px;
+    margin-left:30px;
+    width:50%;
+    float:left;
+}
+.content section ul
+{
+    margin:20px 0 0 40px;
+    line-height: 20px;
+}
+.edu 
+{   
+    background-image:
+    linear-gradient(#2B2D42 ,
+                    transparent 40% ),
+    url(Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:500px;
+    position: relative;
+}
+.edu section  
+{
+    position: absolute;
+    top:80px;
+    left:150px;   
+}
+.edu section h4 
+{
+    font-family:arial,Tahoma ;
+    line-height: 25px;
+}
+footer 
+{
+    text-align:center;
+    background-color:#2B2D42; 
+    height: 270px;
+}
+footer a
+{
+    margin:0 15px 0 0;
+}
+footer p 
+{   
+    color:#8D99AE;
+    margin:20px;
+}
