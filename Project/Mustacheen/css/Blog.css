@@ -1,0 +1,140 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Start Header */ 
+header {
+    width:50%;
+    margin:50px auto;
+}
+header img {
+    width:50%;
+    margin:0 auto;
+    display: block;
+}
+header .navbar ul {
+    list-style: none;
+    width:80%;
+    margin: 0 auto; 
+}
+header .navbar ul li {
+    display: inline-block;
+    font-size: 18px;
+    font-family:"Arial Black",Tahoma;
+    margin-top:40px;
+    margin-right:25px;  
+}
+header .navbar ul li a {
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+}
+header .navbar ul li a:hover {color:#80c5c0;}
+header .navbar ul li a:active { color:#80c5c0;}
+
+/* End header*/
+
+/*Start Content */
+.content {
+    width:70%;
+    margin:0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.content h1 {
+    width:140px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family:'poller one', cursive;
+    background-color:#252525;
+    color:#FFFFFF;
+    padding: 10px 20px;
+}
+.content div {
+    margin-top: 15px;
+    overflow: hidden;
+    border: 2px solid #000;
+}
+.content div img {
+    float:left;
+    width: 40%;
+    border-right:2px solid #000;
+    opacity:0.7;
+    transition: all .5s ease-in-out;
+}
+.content div img:hover{
+    opacity: 1;
+}
+.content div section {
+    width:50%;
+    float: left;
+    margin:2% ;
+    margin-top:4%;
+}
+.content div section h2 {
+    font-family: "Arial Black";
+    font-size: 25px;
+    text-transform: uppercase;
+    color:#252525;
+}
+.content div section p {
+    line-height: 1.5;
+}
+.content div section button {
+    margin:10px auto;
+    padding:7px 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #000;
+    color:#FFF;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.content div section button:hover{
+    background-color:#FFF;
+    color:#000;
+    border:2px solid #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+/* End Content */
+
+/* Start Footer */ 
+footer {
+    width: 100%;
+    background-color: #252525;
+    height: 120px;
+    margin-top:40px;
+}
+footer .container{
+    width:70%;
+    margin:0 auto;
+}
+footer .container p {
+    color:#FFF;
+    display: inline-block;
+    margin-top:50px;
+    font-family: Arial;
+    font-size: 14px;
+}
+footer .container i {
+    float: right;
+    margin:35px 20px 0 0;
+    font-size: 30px;
+    color:#FFF;
+    padding:5px;
+    width:35px;
+    text-align: center;
+    border:2px groove #FFF;
+}
+footer .container i:hover {
+    background-color: #FFF;
+    color:#252525;
+}
+/* End Footer */

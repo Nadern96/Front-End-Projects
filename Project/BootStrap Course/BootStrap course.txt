@@ -1,0 +1,96 @@
+Screen Size      Class name 
+
+Large Screens    lg
+Medium Screens   md
+Small Screens    sm
+Extra small Screen xs
+
+
+col-lg-4
+
+grid system = 12 unit
+
+col = column
+lg  = large screen
+ 4  = number of units taken from grid system
+
+visible // show 
+hidden // Hide
+
+hidden-(screen name) // hidden-lg
+visible-(screen name)-(block/inline/inline block ) // visible-md-blocck 
+
+class="clear-fix" : clear float of the previous divs in grid sys (column Reset )
+
+class="col-md-offset-3" : 3/12 = 25% ...margin-left:25%
+
+/* Class to center element using margin */  class = "center-block"
+/* Class to center text */  class = "text-center"
+
+/* Classes for some-buttons */ 
+
+<a href="#" class="btn btn-primary"></a>  (primary = blue color )
+<a href="#" class="btn btn-info"></a>     (info = indigo color )
+<a href="#" class="btn btn-danger"></a>   (danger = red color )
+<a href="#" class="btn btn-warning"></a>   (warning = yellow color )
+<a href="#" class="btn btn-success"></a>  (success = green color )
+
+/* Class to reset ul */  <ul class="list-unstyled"><ul>
+
+/* Class to make the image as a circle */   <img src =" " alt = " " class="img-circle">
+
+**** Some classes for font awesome icons ** 
+
+<i class="fa fa-facebook"><i>  /* This is the facebook icon */ 
+<i class="fa fa-facebook-square"><i>  /* This is facebook square icon */
+
+/* to control size of the icon */  fa-(size) 
+
+<i class="fa fa-facebook-square fa-lg"><i> 
+<i class="fa fa-facebook-square fa-2x"><i> 
+<i class="fa fa-facebook-square fa-3x"><i>  /* This is facebook square icon */
+
+
+/* to make the icon spin*/  fa-spin
+<i class="fa fa-facebook fa-2x fa-spin"></i>
+
+/* Making a form-inline with bootstrap */  
+
+<form class="form-inline">
+  <input class="form-control input-lg" type="text" >
+  <button class="btn btn-danger btn-lg">Subscribe</button>
+</form>
+
+
+/* cSS Code for a fixed background "Parellelex Scrolling" */
+background:url("../images/stats.jpg") no-repeat center center fixed;
+
+/** Class for progress bar */ 
+<div class="progress">
+	<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" 
+		area-valuemin="0" area-valuemax="100" style="width:80%">Test</div>
+</div> 
+
+class="progress-bar-striped"   .... (type of progress)
+to make moving progress ... add class="active"  (note: progress bar must be "progress-bar-striped" to be "active"
+
+/* Note : to make words inside progress-bar in its middle vertically ... make line-height of progress-bar =height of progress*/
+
+/* text-indent:10px; (bt5li el text yb3d shwya 3n l border , k2nha padding bs for text only */
+
+/* for forms :
+
+<form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control">
+                        </div>
+                    </form>
+
+/* Wow Js class &n attributes */ 
+
+after adding wow.js and animate.js 
+
+classname= "wow" and attributes : data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="1s" data-wow-iteration="1s"

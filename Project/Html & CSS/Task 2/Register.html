@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+    <head>
+		<meta charset="utf-8">
+		<meta name="description" content="welcome to my form">
+		<title> Regiteration form</title>
+		
+		<style>
+            body {background: #EFEFEF;}
+            fieldset{ border: 1px solid #CCC;
+            padding:10px;
+                Width:50%;
+            margin:20px auto;
+                
+            background: white;}
+            
+            label,input[type="text"],input[type="password"] { display:block; 
+            padding: :10px;
+            margin-bottom:10px;
+            width:300px;}
+            hr {margin:20px;}
+            textarea{width:400px; height:200px; display:block;}
+
+			
+		</style>
+	</head>
+    
+    <body>
+        <form name="Register">
+			<fieldset>
+                <legend> Personal Information</legend>
+                <label>Username</label>
+                <input type="text" name="username"  >
+                <label>Password</label>
+                <input type="password" name="password" >
+                <label>E-mail</label>
+                <input type="text" name="E-mail" >
+                <label> Gender </label>
+                <select name="Gender" >
+                    <option value="Male"> Male</option>
+                    <option value="Femel"> Female</option>
+                </select>
+            </fieldset>
+            
+            <fieldset>
+            <legend> Your Favourites</legend>
+                <label> Your Favourite Text Editor</label>
+                <input type="radio" name="editor">Notepad++ <br>
+                 <input type="radio" name="editor">Dream Waver<br> 
+                 <input type="radio" name="editor">Brackets <hr>
+            
+                <label> Your Favourite Browser</label>
+                <input type="radio" name="browser">Google Chrome  <br>
+                 <input type="radio" name="browser">Firefox<br> 
+                 <input type="radio" name="browser">Opera <hr>
+            
+                <label> Your Favourite Operating System</label>
+                <input type="radio" name="Os">Mac OSX <br>
+                 <input type="radio" name="Os"> Linux<br> 
+                 <input type="radio" name="Os">Windows <hr>
+            
+            </fieldset>
+            
+            <fieldset>
+                <legend> Your Message</legend>
+                <textarea> </textarea>
+                <input type="submit" value="Send Your Data">
+            
+            
+            </fieldset>
+		</form>
+    
+    
+    
+    
+    
+    
+    </body>
+
+
+
+</html>
